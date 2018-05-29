@@ -78,16 +78,16 @@ module.exports = {
 
 		_meta: {
 			"backspace": { func: "backspace", classes: "control"},
-			"accept": { func: "accept", text: "OK", classes: "control featured", width: 83},
+			"accept": { func: "accept", text: "OK", classes: "control featured"},
 			"next": { func: "next", text: "Next", classes: "control featured"},
-			"zero": { key: "0", width: 83}
+			"zero": { key: "0", width: 84}
 		},
 
 		default: [
 			"1 2 3",
 			"4 5 6",
 			"7 8 9",
-			". {backspace} {zero} {accept}"
+			". {backspace} {zero} {next} {accept}"
 		]
 	}
 
