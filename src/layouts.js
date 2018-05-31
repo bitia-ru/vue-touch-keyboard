@@ -79,7 +79,7 @@ module.exports = {
 		_meta: {
 			"backspace": { func: "backspace", classes: "control"},
 			"accept": { func: "accept", text: "OK", classes: "control featured"},
-			"next": { func: "next", text: "Next", classes: "control featured"},
+			"next": { func: "next", text: "⟹", classes: "control featured"},
 			"zero": { key: "0", width: 84}
 		},
 
